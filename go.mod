@@ -1,6 +1,6 @@
 module github.com/Mmx233/BitSrunLoginGo
 
-go 1.20.7
+go 1.20
 
 require (
 	github.com/Mmx233/tool v0.7.3
