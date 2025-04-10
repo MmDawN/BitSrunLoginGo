@@ -1,0 +1,10 @@
+[Unit]
+Description=BitSrunLoginGo Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/BitSrunLoginGo --auto-acid --config=/usr/local/bin/Config.yaml
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
